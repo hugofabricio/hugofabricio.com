@@ -8,7 +8,7 @@ export const headerVariant = {
     translateY: 0,
     transition: {
       type: 'tween',
-      duration: 0.5
+      duration: 0.4
     }
   }
 }

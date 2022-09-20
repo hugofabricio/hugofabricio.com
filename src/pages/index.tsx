@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <NextSeo title={t('seo.title')} description={t('seo.description')} />
+      <NextSeo description={t('seo.description')} />
       <HomeView />
     </>
   )
