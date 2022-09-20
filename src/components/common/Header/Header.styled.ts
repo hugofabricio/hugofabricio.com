@@ -143,8 +143,6 @@ export const Wrapper = styled(motion.header)`
       }
 
       &.is-opened {
-        background-color: ${colors.neutral1000};
-
         ${Menu} {
           transform: translateX(0%);
         }
