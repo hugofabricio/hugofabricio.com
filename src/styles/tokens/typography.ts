@@ -43,7 +43,7 @@ const typography = {
     },
     heroTitle: {
       max: 100,
-      min: 32
+      min: 50
     },
     heroBody: {
       max: 32,
