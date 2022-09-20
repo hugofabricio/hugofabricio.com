@@ -10,6 +10,6 @@ export const Wave = styled(motion.svg)`
   width: calc(50vw - 140px);
 
   ${media.lessThan('xs')} {
-    width: 75%;
+    width: 95%;
   }
 `
