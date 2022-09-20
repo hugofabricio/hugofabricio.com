@@ -28,7 +28,14 @@ const View = ({ data }: ViewProps) => {
             />
           ))}
         </Block>
-        <Block tag="article" display="flex" flexWrap="wrap" maxWidth={900} gap={20}>
+        <Block
+          tag="article"
+          display="flex"
+          flexWrap="wrap"
+          flexDirection={{ xxxs: 'column', sm: 'row' }}
+          maxWidth={900}
+          gap={20}
+        >
           {data.map(({ href, title }) => (
             <Button
               key={title}
