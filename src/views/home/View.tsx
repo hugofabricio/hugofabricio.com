@@ -17,8 +17,8 @@ const View = () => {
             visible: {
               opacity: 1,
               transition: {
-                duration: 1.4,
-                delay: 1.2
+                duration: 1,
+                delay: 0.2
               }
             }
           }}
@@ -39,8 +39,8 @@ const View = () => {
           visible: {
             opacity: 1,
             transition: {
-              delay: 1.2,
-              duration: 0.8
+              delay: 1,
+              duration: 0.6
             }
           }
         }}
