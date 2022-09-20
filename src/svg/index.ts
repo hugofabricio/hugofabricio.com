@@ -1,4 +1,3 @@
-import ArrowRight from './arrow-right.svg'
 import ChevronLeft from './chevron-left.svg'
 import ChevronRight from './chevron-right.svg'
 import Facebook from './facebook.svg'
@@ -11,10 +10,8 @@ import NotFound from './not-found.svg'
 import Phone from './phone.svg'
 import Twitter from './twitter.svg'
 import Whatsapp from './whatsapp.svg'
-import Youtube from './youtube.svg'
 
 const svg = {
-  'arrow-right': ArrowRight,
   'chevron-left': ChevronLeft,
   'chevron-right': ChevronRight,
   'facebook': Facebook,
@@ -27,7 +24,6 @@ const svg = {
   'phone': Phone,
   'twitter': Twitter,
   'whatsapp': Whatsapp,
-  'youtube': Youtube,
 }
 
 export type SvgProps = keyof typeof svg
