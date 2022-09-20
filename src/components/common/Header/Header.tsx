@@ -9,14 +9,13 @@ import cn from 'classnames'
 import { Hamburguer, Link } from 'components/helpers'
 import { Brand, Button } from 'components/common'
 
-import { headerVariant } from './Header.animations'
 import menu from './Header.menu'
 import * as S from './Header.styled'
 
 const Header = () => {
   const { t } = useTranslation('menu')
   const { y } = useWindowScroll()
-  const { asPath } = useRouter()
+  const { pathname } = useRouter()
   const [openedMenu, setOpenedMenu] = useState(false)
   const [affixed, setAffixed] = useState(false)
   const { width } = useWindowSize()
@@ -52,11 +51,8 @@ const Header = () => {
       className={cn({
         'is-affixed': affixed,
         'is-opened': openedMenu,
-        'is-dark': asPath === '/contato/'
+        'is-dark': pathname.startsWith('/contato')
       })}
-      variants={headerVariant}
-      initial="hidden"
-      animate="visible"
     >
       <Container>
         <S.Bar>

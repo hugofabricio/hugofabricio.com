@@ -13,10 +13,10 @@ import { GlobalStyle, theme } from 'styles'
 import type { AppProps } from 'next/app'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-  const { asPath } = useRouter()
+  const { pathname } = useRouter()
 
   useEffect(() => {
-    document.body.className = asPath === '/contato/' ? 'bg-pink' : 'bg-dark'
+    document.body.className = pathname.startsWith('/contato') ? 'bg-pink' : 'bg-dark'
   })
 
   return (

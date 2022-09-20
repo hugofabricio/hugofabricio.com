@@ -21,8 +21,8 @@ const Section = ({
       visible: {
         opacity: 1,
         transition: {
-          delay: 0.4,
-          duration: 0.6
+          delay: 0.2,
+          duration: 0.4
         }
       }
     }}
