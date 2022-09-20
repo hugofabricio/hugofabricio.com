@@ -143,9 +143,7 @@ export const Wrapper = styled(motion.header)`
       }
 
       &.is-opened {
-        ${Bar} {
-          background-color: ${colors.neutral1000};
-        }
+        background-color: ${colors.neutral1000};
 
         ${Menu} {
           transform: translateX(0%);
