@@ -19,11 +19,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ${({ theme: { typography, colors } }) => css`
-    html,
-    body {
-      background-color: ${colors.neutral1000};
-    }
-
     body {
       overscroll-behavior-y: none;
       font-size: 16px;
@@ -31,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
       line-height: 1.6;
       color: ${colors.neutral0};
       font-family: ${typography.fonts[0]}, sans-serif;
+      background-color: ${colors.neutral1000};
 
       &.bg-pink {
         background-color: ${colors.pink500};
