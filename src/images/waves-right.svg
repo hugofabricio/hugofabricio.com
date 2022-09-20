@@ -1,0 +1,14 @@
+<svg viewBox="0 0 544 445" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path class="wave-type-1" d="M535.111 445C537.464 444.985 539.716 444.044 541.379 442.381C543.042 440.719 543.984 438.468 543.999 436.117V0C493.691 6.53679 463.673 46.5949 453.946 68.2164C438.854 101.738 413.699 123.191 368.925 117.661C324.15 112.131 297.151 125.204 269.649 183.364C245.333 234.651 219.004 222.416 115.704 247.054C12.4033 271.692 41.0789 340.078 19.7801 410.305C15.9438 423.026 9.55298 434.831 0.998047 445H535.111Z" fill="url(#linear-wave-03)"/>
+  <path class="wave-type-2" d="M242.985 350.301C187.478 352.145 110.17 383.488 84.0098 444.833H544V153.194C476.921 152.021 413.03 187.386 391.397 248.396C367.751 315.607 308.387 348.29 242.985 350.301Z" fill="url(#linear-wave-04)"/>
+  <defs>
+    <linearGradient id="linear-wave-03" x1="272.499" y1="0" x2="272.499" y2="445" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5825C7"/>
+      <stop offset="1" stop-color="#F61067"/>
+    </linearGradient>
+    <linearGradient id="linear-wave-04" x1="314.005" y1="153.166" x2="314.005" y2="444.833" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F61067"/>
+      <stop offset="1" stop-color="#5825C7"/>
+    </linearGradient>
+  </defs>
+</svg>

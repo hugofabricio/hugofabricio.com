@@ -1,0 +1,12 @@
+{
+  "start-project": "Iniciar projeto",
+  "send": "Enviar",
+  "send-message": "Enviar mensagem",
+  "more": "Saiba mais",
+  "switch-locale": "Alterar idioma para {{locale}}",
+  "author": "Por {{name}}",
+  "share": "Compartilhe",
+  "share-provider": "Compartilhar no {{provider}}",
+  "back-home": "Voltar para página inicial",
+  "follow-me": "Siga-me"
+}

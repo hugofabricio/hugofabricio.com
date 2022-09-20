@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "whatsapp": "WhatsApp",
+    "subject": "Assunto",
+    "message": "Mensagem"
+  },
+  "message": {
+    "success": "Mensagem enviada com sucesso, em breve retornarei o contato! :)",
+    "failed": "Ops, sua mensagem não foi enviada, tente novamente."
+  }
+}

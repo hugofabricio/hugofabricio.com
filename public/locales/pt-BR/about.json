@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "Hey!",
+    "description": ""
+  },
+  "title": "Hey!",
+  "body": [
+    "Sou o Hugo Fabricio. Trabalho com desenvolvimento web desde 2009.",
+    "Atualmente sou desenvolvedor front-end no Design Team da <a href='https://superlogica.com/' title='Superlógica' target='_blank' rel='nofollow noopener'>Superlógica</a>, atuando na criação de projetos <a href='https://jamstack.org/' title='Jamstack' target='_blank' rel='nofollow noopener'>Jamstack</a> e microsserviços."
+  ],
+  "stats": {
+    "title": "Desenvolvo interfaces sempre focando em consistência com o design, boa experiência entre dispositivos.",
+    "projects": "<span>{{ value }}</span> projetos concluídos",
+    "experience": "<span>{{ value }}</span> anos de experiência"
+  }
+}

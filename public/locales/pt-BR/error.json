@@ -1,0 +1,6 @@
+{
+  "title": "Erro {{status}}",
+  "404": "Página não encontrada",
+  "500": "Ocorreu um erro no servidor",
+  "back-home": "Voltar para o início"
+}
