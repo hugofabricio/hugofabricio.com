@@ -53,7 +53,7 @@ export default class MyDocument extends Document {
           <meta name="apple-mobile-web-app-title" content="Hugo Fabricio" />
           <meta name="application-name" content="Hugo Fabricio" />
           <meta name="msapplication-TileColor" content="#ffffff" />
-          <meta name="theme-color" content="#ffffff" />
+          <meta name="theme-color" content="#232532" />
         </Head>
         <body className={pageProps.isPink ? 'bg-pink' : 'bg-dark'}>
           <Main />
