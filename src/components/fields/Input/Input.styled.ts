@@ -19,6 +19,7 @@ export const Field = styled.input.withConfig({
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   font-weight: 400;
   line-height: 1.5;
+  border-radius: 0;
 
   ${({
     theme: {

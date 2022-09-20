@@ -20,6 +20,7 @@ export const Field = styled.textarea.withConfig({
   font-weight: 400;
   line-height: 1.5;
   resize: none;
+  border-radius: 0;
 
   ${({
     theme: {
