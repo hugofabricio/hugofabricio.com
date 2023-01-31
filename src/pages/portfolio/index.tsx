@@ -33,8 +33,20 @@ export const getStaticProps = async ({ locale }: StaticProps) => {
       href: 'https://superlogica.com/'
     },
     {
+      title: 'Superlógica Design Language',
+      href: 'https://superlogica.design/'
+    },
+    {
       title: 'Superlógica Next',
       href: 'https://next.superlogica.com/'
+    },
+    {
+      title: 'Superlógica Xperience',
+      href: 'https://xperience.superlogica.com/'
+    },
+    {
+      title: 'Gruvi',
+      href: 'https://gruvi.app/'
     },
     {
       title: 'Grupo Roccia',
