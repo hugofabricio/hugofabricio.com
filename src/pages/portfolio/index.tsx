@@ -29,6 +29,14 @@ const Portfolio: NextPage<PageProps> = ({ portfolio }) => {
 export const getStaticProps = async ({ locale }: StaticProps) => {
   const portfolio: ProjectData[] = [
     {
+      title: 'Voitz Energia',
+      href: 'https://voitzenergia.com.br/'
+    },
+    {
+      title: 'EQ Empreendimentos',
+      href: 'https://eqcomvc.com.br/'
+    },
+    {
       title: 'Superlógica',
       href: 'https://superlogica.com/'
     },
@@ -57,7 +65,7 @@ export const getStaticProps = async ({ locale }: StaticProps) => {
       href: 'https://curso.onildorocha.com/'
     },
     {
-      title: 'Conserpa',
+      title: 'Conserpa & Enger',
       href: 'https://grupoconserpaenger.com.br/'
     },
     {
@@ -71,10 +79,6 @@ export const getStaticProps = async ({ locale }: StaticProps) => {
     {
       title: 'Cultura Inglesa',
       href: 'https://culturainglesapb.com.br/'
-    },
-    {
-      title: 'Equilibrio',
-      href: 'https://construtoraequilibrio.com.br/'
     },
     {
       title: 'Voejar Brasil',
