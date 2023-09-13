@@ -33,6 +33,10 @@ export const getStaticProps = async ({ locale }: StaticProps) => {
       href: 'https://voitzenergia.com.br/'
     },
     {
+      title: 'SC Tecelagem',
+      href: 'https://sctecelagem.com.br/'
+    },
+    {
       title: 'EQ Empreendimentos',
       href: 'https://eqcomvc.com.br/'
     },
