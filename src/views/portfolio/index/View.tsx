@@ -33,7 +33,6 @@ const View = ({ data }: ViewProps) => {
           display="flex"
           flexWrap="wrap"
           flexDirection={{ xxxs: 'column', sm: 'row' }}
-          maxWidth={900}
           gap={20}
         >
           {data.map(({ href, title }) => (
