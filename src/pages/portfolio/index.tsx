@@ -29,12 +29,24 @@ const Portfolio: NextPage<PageProps> = ({ portfolio }) => {
 export const getStaticProps = async ({ locale }: StaticProps) => {
   const portfolio: ProjectData[] = [
     {
+      title: 'Zênite Construções',
+      href: 'https://zeniteconstrucoes.com.br/'
+    },
+    {
+      title: 'Istratégica',
+      href: 'https://istrategica.com.br/'
+    },
+    {
       title: 'Voitz Energia',
       href: 'https://voitzenergia.com.br/'
     },
     {
       title: 'SC Tecelagem',
       href: 'https://sctecelagem.com.br/'
+    },
+    {
+      title: 'HiSelly',
+      href: 'https://hiselly.com.br/'
     },
     {
       title: 'EQ Empreendimentos',
